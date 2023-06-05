@@ -1,0 +1,276 @@
+
+/* extra small */
+@media (max-width: 575.98px){
+    .navbar{
+        background-color: #F9F9F9;
+    }
+    .header{
+        background-image: none;
+    }
+    .head{
+        padding-top: 30%;
+      
+    }
+    .cursol{
+        margin-top: 20px;
+    }
+    .title{
+        font-size: 30px;
+      
+    }
+    #type{
+        font-size: 30px;
+     
+    }
+    .details{
+         font-size: 17px;
+    }
+    .fff{
+        visibility: hidden;
+    }
+    .h4{
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        
+    }
+    .pp{
+        margin-top: 15px;
+        font-size: 14px;
+        color: #717171;
+        
+    }
+    .bubbles span{
+        position: relative;
+        width: 20px;
+        height: 20px;
+        background-color: #c32231;
+        margin: 0 5px;
+        border-radius: 50%;
+        box-shadow: 0 0 0 10px #717171, 0 0 0 10px #a8a8a8 , 0 0 0 10px #353535;
+        animation: animate 8s linear infinite;
+        animation-duration: calc(125s / var(--i));
+    }
+  
+    .nav-about ul li a{
+        font-size: 12px;
+      
+    }
+    #about{
+        margin-top: 30px;
+    }
+    .about-page .ppp{
+        line-height: 1.8;
+        font-size: 15px;
+        color: #212529;
+    }
+    .d-v{
+        margin-top: 20px;
+    }
+    section.contact-us #contactUs {
+        margin-right: 0px;
+        margin-top: 20px;
+    
+    }
+    .title-page{
+        position: absolute;
+        color: #fff;
+        top: 160px;
+        right: 45%;
+        z-index: 1;
+    }
+    .hide{
+        display: none;
+    }
+    .hiro-section{
+        position: relative;
+        background-image: none;
+
+        min-height: 660px;
+    }
+    #problem{
+        margin-top: 55%;
+    }
+ }
+ @media (min-width: 576px)and (max-width: 767.98px){
+    .navbar{
+        background-color: #F9F9F9;
+    }
+    .header{
+        background-image: none;
+    }
+    .head{
+        padding-top: 25%;
+      
+    }
+    .cursol{
+        margin-top: 20px;
+    }
+    .title{
+        font-size: 35px;
+      
+    }
+    #type{
+        font-size: 35px;
+     
+    }
+    .details{
+         font-size: 20px;
+    }
+    .fff{
+        visibility: hidden;
+    }
+    .h4{
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    .pp{
+        margin-top: 15px;
+        font-size: 15px;
+        color: #717171;
+        
+    }
+    .btn-v{
+ 
+        font-size: 15px;
+
+    
+    }
+ 
+    .nav-about ul{
+        gap: 10px;
+    }
+    .nav-about ul li a{
+        font-size: 12px;
+      
+    }
+    #about{
+        margin-top: 30px;
+    }
+    .about-page .ppp{
+        line-height: 1.8;
+        font-size: 15px;
+        color: #212529;
+    }
+    .d-v{
+        margin-top: 20px;
+    }
+    section.contact-us #contactUs {
+        margin-right: 0px;
+        margin-top: 20px;
+    
+    }
+    .title-page{
+        position: absolute;
+        color: #fff;
+        top: 160px;
+        right: 45%;
+        z-index: 1;
+    }
+      .hide{
+        display: none;
+    }
+    .show{
+        display:block
+    }
+    .hiro-section{
+        position: relative;
+        background-image: none;
+
+        min-height: 660px;
+    }
+    #problem{
+        margin-top: 55%;
+    }
+ }
+ /* medium */
+ @media (min-width: 768px) and (max-width: 991.98px){
+    .navbar{
+        background-color: #F9F9F9;
+    }
+    .header{
+        background-image: none;
+        min-height: 500px;
+    }
+    .head{
+        padding-top: 20%;
+      
+    }
+    .imgs-header{
+        border-radius: 20px;
+        height: 300px;
+    }
+    .title{
+        font-size: 30px;
+      
+    }
+    #type{
+        font-size: 30px;
+     
+    }
+    .details{
+         font-size: 15px;
+         margin-top: 30px;
+
+    }
+    .h4{
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    .pp{
+        margin-top: 15px;
+        font-size: 10px;
+        color: #717171;
+        
+    }
+    .btn-v{
+ 
+        font-size: 15px;
+
+    
+    }
+    .about-page .ppp{
+        line-height: 1.8;
+        font-size: 15px;
+        color: #212529;
+    }
+    .d-v{
+        margin-top: 20px;
+    }
+    section.contact-us #contactUs {
+        margin-right: 0px;
+        margin-top: 20px;
+    
+      }
+      .show{
+        display:none;
+    }
+    .title-page{
+        position: absolute;
+        color: #fff;
+        top: 150px;
+        right: 45%;
+        z-index: 1;
+    }
+    .hiro-section{
+        position: relative;
+        background-image: none;
+
+        min-height: 660px;
+    }
+    #problem{
+        margin-top: 55%;
+    }
+ }
+ /* large */
+ @media (min-width: 992px) and (max-width: 1199.98px){
+ 
+ }
+ /* extra large */
+ @media (min-width: 1200px) and (max-width: 1800px){
+ 
+ }
